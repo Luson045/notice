@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOTICE</title>
+  <style>
+  body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  }
+  .notice{
+    border-radius: 10px;
+    border: 2px solid white;
+    font-family: ff;
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding:10px;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    h1{
+      animation-name: cc;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+    a{
+      text-decoration: none;
+      color:red;
+    }
+  }
+  @font-face {
+    font-family: ff;
+    src: url("Atmospheric-rg4aL.ttf");
+  }
+  @keyframes cc {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+  }
+  @keyframes move {
+  0%   {transform: translateX(0px);}
+  5%  {transform: translateX(-10px);}
+  10%  {transform: translateX(-20px);}
+  15%  {transform: translateX(-30px);}
+  20%  {transform: translateX(-40px);}
+  25% {transform: translateX(-50px);}
+  30%   {transform: translateX(-60px);}
+  35%  {transform: translateX(-70px);}
+  40%  {transform: translateX(-80px);}
+  45%  {transform: translateX(-90px);}
+  50%  {transform: translateX(-100px);}
+  55%  {transform: translateX(-90px);}
+  60%   {transform: translateX(-80px);}
+  65%  {transform: translateX(-70px);}
+  70%  {transform: translateX(-60px);}
+  75%  {transform: translateX(-50px);}
+  80%  {transform: translateX(-40px);}
+  85% {transform: translateX(-30px);}
+  90%   {transform: translateX(-20px);}
+  95%  {transform: translateX(-10px);}
+  100%  {transform: translateX(0px);}
+  }
+  p:hover{
+    transform: scale(1.1);
+    color:blue;
+    transition: 0.5s;
+  }
+  img{
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  </style>
+</head>
+<body>
+  <img style="height: 100px;width:100px;" src="item.png">
+    <div class="notice">
+    <h1>IMPORTANT</h1>
+    <marquee><h6>Wanna take on a full fledge website project</h6></marquee>
+    <h3>Want any of the following website???</h3>
+    <ul>
+      <p>Catalog Website(paid)</p>
+      <p>Event Website(paid)</p>
+      <p>Portfolio(Paid)</p>
+      <p>Wishes/Greetings</p>
+      <p>Vlog page</p>
+      <p>Others(if feasible)</p>
+    </ul>
+    <p>NOTE:&emsp;<a>mail me, and i will confirm if i can...</a></p>
+    <p>NOTE:&emsp;<a>requests regarding harmful websites will be ignored...</a></p>
+    <a href="mailto:lusonbasumatary17@gmail.com" target="_blank">mail here</a><br>
+    <a href="https://luson045.github.io/portfolio/" target="_blank">About me</a>
+  </div>
+</body>
+</html>
